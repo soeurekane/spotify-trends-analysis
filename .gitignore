@@ -1,0 +1,12 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Downloaded or recreated by data/analysis.ipynb.
+data/raw/
+data/spotify_data.csv
+data/processed/spotify_analysis_ready.csv
+data/analysis.executed.ipynb
