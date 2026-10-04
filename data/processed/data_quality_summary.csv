@@ -1,0 +1,55 @@
+check_type,metric,value,detail
+missing_values,Unnamed: 0,0.0,0.000000% of source rows
+missing_values,artist_name,15.0,0.001293% of source rows
+missing_values,track_name,1.0,0.000086% of source rows
+missing_values,track_id,0.0,0.000000% of source rows
+missing_values,popularity,0.0,0.000000% of source rows
+missing_values,year,0.0,0.000000% of source rows
+missing_values,genre,0.0,0.000000% of source rows
+missing_values,danceability,0.0,0.000000% of source rows
+missing_values,energy,0.0,0.000000% of source rows
+missing_values,key,0.0,0.000000% of source rows
+missing_values,loudness,0.0,0.000000% of source rows
+missing_values,mode,0.0,0.000000% of source rows
+missing_values,speechiness,0.0,0.000000% of source rows
+missing_values,acousticness,0.0,0.000000% of source rows
+missing_values,instrumentalness,0.0,0.000000% of source rows
+missing_values,liveness,0.0,0.000000% of source rows
+missing_values,valence,0.0,0.000000% of source rows
+missing_values,tempo,0.0,0.000000% of source rows
+missing_values,duration_ms,0.0,0.000000% of source rows
+missing_values,time_signature,0.0,0.000000% of source rows
+duplicates,exact row,0.0,duplicate rows
+duplicates,track_id,0.0,duplicate rows
+duplicates,artist_name + track_name,0.0,duplicate rows
+range_validation,popularity,0.0,"outside [0, 100]"
+range_validation,danceability,0.0,"outside [0, 1]"
+range_validation,energy,0.0,"outside [0, 1]"
+range_validation,key,0.0,"outside [0, 11]"
+range_validation,mode,0.0,"outside [0, 1]"
+range_validation,speechiness,0.0,"outside [0, 1]"
+range_validation,acousticness,0.0,"outside [0, 1]"
+range_validation,instrumentalness,0.0,"outside [0, 1]"
+range_validation,liveness,0.0,"outside [0, 1]"
+range_validation,valence,0.0,"outside [0, 1]"
+range_validation,tempo,0.0,"outside [0, 250]"
+range_validation,duration_ms,0.0,"outside [1, inf]"
+range_validation,time_signature,0.0,"outside [0, 5]"
+iqr_flag,popularity,6572.0,0.566667% flagged; not automatically removed
+iqr_flag,danceability,1199.0,0.103383% flagged; not automatically removed
+iqr_flag,energy,0.0,0.000000% flagged; not automatically removed
+iqr_flag,loudness,75536.0,6.513049% flagged; not automatically removed
+iqr_flag,speechiness,137326.0,11.840857% flagged; not automatically removed
+iqr_flag,acousticness,0.0,0.000000% flagged; not automatically removed
+iqr_flag,instrumentalness,0.0,0.000000% flagged; not automatically removed
+iqr_flag,liveness,92203.0,7.950152% flagged; not automatically removed
+iqr_flag,valence,0.0,0.000000% flagged; not automatically removed
+iqr_flag,tempo,5660.0,0.488030% flagged; not automatically removed
+iqr_flag,duration_ms,60280.0,5.197609% flagged; not automatically removed
+period_2010_2019,rows_2010_2019,514990.0,row count
+period_2010_2019,missing_artist_name,15.0,row count
+period_2010_2019,missing_track_name,0.0,row count
+period_2010_2019,under_30_seconds,553.0,row count
+period_2010_2019,over_40_minutes,312.0,row count
+period_2010_2019,tempo_zero,710.0,row count
+period_2010_2019,popularity_zero,52472.0,row count
